@@ -8,6 +8,6 @@ To use, include the following in your `typedoc.json` config:
 {
     "name": "My Docs",
     "out": "docs",
-    "ghCname": "mysite.rocks"
+    "cname": "mysite.rocks"
 }
 ```

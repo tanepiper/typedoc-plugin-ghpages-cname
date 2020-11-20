@@ -1,5 +1,5 @@
 {
-  "name": "typedoc-ghpages-cname-plugin",
+  "name": "typedoc-plugin-ghpages-cname",
   "version": "1.0.0",
   "description": "Generates a CNAME file inside the docs folder for Github Pages",
   "keywords": [
