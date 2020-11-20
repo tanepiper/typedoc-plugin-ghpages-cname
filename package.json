@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-ghpages-cname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a CNAME file inside the docs folder for Github Pages",
   "keywords": [
     "cname",
@@ -21,13 +21,13 @@
     "name": "Tane Piper",
     "url": "https://tane.dev"
   },
-  "homepage": "https://github.com/tanepiper/typedoc-ghpages-cname-plugin",
+  "homepage": "https://github.com/tanepiper/typedoc-plugin-ghpages-cname",
   "bugs": {
-    "url": "https://github.com/tanepiper/typedoc-ghpages-cname-plugin/issues"
+    "url": "https://github.com/tanepiper/typedoc-plugin-ghpages-cname/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tanepiper/typedoc-ghpages-cname-plugin.git"
+    "url": "https://github.com/tanepiper/typedoc-plugin-ghpages-cname.git"
   },
   "license": "MIT",
   "peerDependencies": {
