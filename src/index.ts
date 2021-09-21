@@ -1,8 +1,7 @@
-import { ParameterType, PluginHost, writeFile } from 'typedoc/dist/lib/utils';
-import { RendererEvent } from 'typedoc/dist/lib/output/events';
+import { Application, ParameterType, RendererEvent } from 'typedoc';
+import * as fs from 'fs';
 
-export function load(host: PluginHost) {
-  const app = host.application;
+export function load(app: Application) {
 
   app.options.addDeclaration({
     name: 'cname',
@@ -14,9 +13,8 @@ export function load(host: PluginHost) {
   app.renderer.once(RendererEvent.END, () => {
     const cName = app.options.getValue('cname') as string;
     if (cName) {
-        const workingDir = process.cwd();
         const outDir = app.options.getValue('out') || './docs';
-        writeFile(`${outDir}/CNAME`, cName, false);
+        fs.writeFileSync(`${outDir}/CNAME`, cName);
     }
   });
 }
