@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-ghpages-cname",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generates a CNAME file inside the docs folder for Github Pages",
   "keywords": [
     "cname",
@@ -31,11 +31,11 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "typedoc": ">=0.19.0"
+    "typedoc": "^0.22.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.9",
-    "typedoc": "~0.19.2",
-    "typescript": "~4.0.5"
+    "@types/node": "^14.17.18",
+    "typedoc": "~0.22.0",
+    "typescript": "~4.4.3"
   }
 }
